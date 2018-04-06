@@ -1,5 +1,8 @@
 # Open-Source Spatial Statistics workshop at AAG 2018
 
+* Time: Thursday, April 12, 10:00 a.m. – 12:00 p.m.
+* Location: Beauregard, Marriott, 5th Floor
+
 ### Instructors
 
 - [Dani Arribas-Bel](http://darribas.org/) -  University of Liverpool
@@ -8,7 +11,7 @@
 - [Wei Kang](http://spatial.ucr.edu/peopleKang.html) - Arizona State University
 
 
-This repository contains the materials and instructions for the PySAL workshop at [NARSC 2017](http://www.narsc.org/newsite/conference/workshops-and-tutorials/).
+This repository contains the materials and instructions for the Open-Source Spatial Statistics workshop at [AAG 2018](https://annualmeeting.aag.org/AAGAnnualMeeting/Register_To_Attend/Event_Display.aspx?EventKey=AM2018).
 
 
 ## Schedule
