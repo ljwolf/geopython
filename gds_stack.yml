@@ -1,0 +1,37 @@
+# Run `conda-env create -f gds_stack.yml`
+name: gds
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - bokeh
+  - dask
+  - feather-format
+  - geopandas
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - jupyter_client
+  - mkl-service
+  - networkx
+  - osmnx
+  - palettable
+  - pillow
+  - pip:
+      - bambi
+      - pystan
+      - polyline
+     # - rpy2
+  - contextily
+  - pymc3
+  - pysal
+  - rasterio
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - xlsxwriter
+
