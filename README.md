@@ -95,7 +95,7 @@ You can download the most recent release of GeoDa (version 1.12) by visiting htt
 
 Once installed, open GeoDa on your operating system. If you have a Macintosh and run into an error that looks like the following:
 
-![error](figs/error.png | width=200)
+![error](figs/error.png | width="200")
 
 Because you downloaded directly from the GeoDa developler website, the operating system is not certain if the software is safe. To override this feature, because you know the software is safe, you must go to Systems Preferences to click on the "Security & Privacy" option. Here, you click on "Open Anyway" to open GeoDa successfully. 
 
