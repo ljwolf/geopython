@@ -34,6 +34,8 @@ Extract the downloaded zip file to a working directory.
 
 ## Installation
 
+### PySAL
+
 We will be using a number of Python packages for geospatial analysis.
 
 An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). In this workshop we will be using **Python 3.6** so please download that version of Anaconda.
@@ -82,3 +84,23 @@ Open check_workshop.html in a browser, and scroll all the way down, you should s
 ![htmlout](figs/htmlout.png)
 
 If you do see the above, you are ready for the workshop.
+
+### GeoDa
+
+We will also have a short and sweet overview of GeoDa, an opensource spatial statistics software. 
+
+You can download the most recent release of GeoDa (version 1.12) by visiting https://geodacenter.github.io/download.html. 
+
+![geoda](figs/geoda.png)
+
+Once installed, open GeoDa on your operating system. If you have a Macintosh and run into an error that looks like the following:
+
+![error](figs/error.png)
+
+Because you downloaded directly from the GeoDa developler website, the operating system is not certain if the software is safe. To override this feature, because you know the software is safe, you must go to Systems Preferences to click on the "Security & Privacy" option. Here, you click on "Open Anyway" to open GeoDa successfully. 
+
+![systempref](figs/systempref.png)
+
+You have successfully installed and opened GeoDa when you can view the following:
+
+![geodasuccess.png](figs/geodasuccess.png.png)
