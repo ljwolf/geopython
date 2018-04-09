@@ -38,13 +38,13 @@ Are you not sure how to access a working directory or command line? For this wor
 
 ![terminal](figs/terminal.png)
 
-Once in your terminal, type "ls". This will list all of the contents in your current directory. You will likely see your Data, Documents, Desktop, Download, and many other folders and files. 
+Once in your terminal, type ```ls```. This will list all of the contents in your current directory. You will likely see your Data, Documents, Desktop, Download, and many other folders and files. 
 
-To change working directories, you will type "cd" plus the name of the directory you'd like to change to. If you are diving into a subdirectory, or child of the directory you were just in, then that name on its own is sufficient. For example, to access the "Downloads" directory, you type "cd Downloads".
+To change working directories, you will type ```cd``` plus the name of the directory you'd like to change to. If you are diving into a subdirectory, or child of the directory you were just in, then that name on its own is sufficient. For example, to access the "Downloads" directory, you type ```cd Downloads```.
 
 ![downloads](figs/downloads.png)
 
-If you just downloaded the zip file into Downloads, first make sure you have unzipped the folder. Once unzipped, assuming it is still in the Downloads directory, type "cd pysal_AAG2018" to access. Then "ls" to list the contents. You have successfully navigated to your working directory to the workshop, and are ready for installations!
+If you just downloaded the zip file into Downloads, first make sure you have unzipped the folder. Once unzipped, assuming it is still in the Downloads directory, type ```cd pysal_AAG2018``` to access. Then ```ls``` to list the contents. You have successfully navigated to your working directory to the workshop, and are ready for installations!
 
 ![downloads](figs/workingdir.png)
 
@@ -59,7 +59,7 @@ An easy way to install all of these packages is to use a Python distribution suc
 
 ![anaconda](figs/anaconda.png)
 
-Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. For example, if the materials now live in the directory ```/Users/hu/wei/Dropbox (ASU)/python_repos/pysal_AAG2018```, you need to navigate to that directory from the terminal (using command ```cd```):
+Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. If you just learned to navigate to your working directory in the tutorial above, you are ready for the next step. If the materials now live in the directory ```/Users/hu/wei/Dropbox (ASU)/python_repos/pysal_AAG2018```, you need to navigate to that directory from the terminal (using command ```cd```):
 
 ![directory](figs/directory.png)
 
