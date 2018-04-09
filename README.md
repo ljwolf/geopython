@@ -32,6 +32,23 @@ If you are not using git, you can grab the workshop materials as a zip file by p
 
 Extract the downloaded zip file to a working directory.
 
+## New to Command Line
+
+Are you not sure how to access a working directory or command line? For this workshop, we recommend starting with two minimum points: (1) find your Terminal, and (2) Learn to Changing Working Directory. For those who have MacOS operating systems, you can find Terminal in your Utilities. For those using other operating systems, search for multiple options online, depending on your taste. A terminal launched looks like this:
+
+![terminal](figs/terminal.png)
+
+Once in your terminal, type "ls". This will list all of the contents in your current directory. You will likely see your Data, Documents, Desktop, Download, and many other folders and files. 
+
+To change working directories, you will type "cd" plus the name of the directory you'd like to change to. If you are diving into a subdirectory, or child of the directory you were just in, then that name on its own is sufficient. For example, to access the "Downloads" directory, you type "cd Downloads".
+
+![downloads](figs/downloads.png)
+
+If you just downloaded the zip file into Downloads, first make sure you have unzipped the folder. Once unzipped, assuming it is still in the Downloads directory, type "cd pysal_AAG2018" to access. Then "ls" to list the contents. You have successfully navigated to your working directory to the workshop, and are ready for installations!
+
+![downloads](figs/workingdir.png)
+
+
 ## Installation
 
 ### PySAL
@@ -89,15 +106,13 @@ If you do see the above, you are ready for the workshop.
 
 We will also have a short and sweet overview of GeoDa, an opensource spatial statistics software. 
 
-You can download the most recent release of GeoDa (version 1.12) by visiting https://geodacenter.github.io/download.html. 
+You can download the most recent release of GeoDa (version 1.12) by visiting [GeoDaCenter.Github.io](https://geodacenter.github.io/download.html). 
 
 ![geoda](figs/geoda.png)
 
-Once installed, open GeoDa on your operating system. If you have a Macintosh and run into an error that looks like the following:
+Once installed, open GeoDa on your operating system. 
 
-![error](figs/error.png | width="200")
-
-Because you downloaded directly from the GeoDa developler website, the operating system is not certain if the software is safe. To override this feature, because you know the software is safe, you must go to Systems Preferences to click on the "Security & Privacy" option. Here, you click on "Open Anyway" to open GeoDa successfully. 
+If you have a Macintosh and run into an error that reads "Can't be opened because it is from an unidentified developer," you will need to implement one additional step. Because you downloaded directly from the GeoDa developler website, the operating system is not certain if the software is safe. To override this feature, because you know the software is safe, you must go to Systems Preferences to click on the "Security & Privacy" option. Here, you click on "Open Anyway" to open GeoDa successfully. 
 
 ![systempref](figs/systempref.png)
 
