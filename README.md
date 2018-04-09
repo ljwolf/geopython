@@ -34,7 +34,7 @@ Extract the downloaded zip file to a working directory.
 
 ## New to Command Line
 
-Are you not sure how to access a working directory or command line? For this workshop, we recommend starting with two minimum points: (1) find your Terminal, and (2) Learn to Changing Working Directory. For those who have MacOS operating systems, you can find Terminal in your Utilities. For those using other operating systems, search for multiple options online, depending on your taste. A terminal launched looks like this:
+Are you not sure how to access a working directory or command line? For this workshop, we recommend starting with two minimum points: (1) find your Terminal, and (2) Learn to Changing Your Working Directory. For those who have MacOS operating systems, you can find Terminal in your Utilities. For those using other operating systems, search for multiple options online, depending on your taste. A terminal launched looks like this:
 
 ![terminal](figs/terminal.png)
 
@@ -59,7 +59,7 @@ An easy way to install all of these packages is to use a Python distribution suc
 
 ![anaconda](figs/anaconda.png)
 
-Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. If you just learned to navigate to your working directory in the tutorial above, you are ready for the next step. If the materials now live in the directory ```/Users/hu/wei/Dropbox (ASU)/python_repos/pysal_AAG2018```, you need to navigate to that directory from the terminal (using command ```cd```):
+Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. If you just learned to navigate to your working directory in the tutorial above, you are ready for the next step. For those who need a refresh: if the materials now live in the directory ```/Users/hu/wei/Dropbox (ASU)/python_repos/pysal_AAG2018```, you need to navigate to that directory from the terminal (using command ```cd```):
 
 ![directory](figs/directory.png)
 
