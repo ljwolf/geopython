@@ -1,24 +1,32 @@
-# Open-Source Spatial Statistics workshop at AAG 2018
+# Spatial Data Science with PyData
 
-* Time: Thursday, April 12, 10:00 a.m. – 12:00 p.m.
-* Location: Beauregard, Marriott, 5th Floor
+* Time: Thursday, April 12, 13:30 - 15:30
 
 ### Instructors
 
+- [Levi John Wolf](https://ljwolf.org) - [University of Bristol](http://www.bristol.ac.uk/geography/levi-j-wolf/overview.html)
+- Sergio Rey - [Center for Geospatial Sciences, University of California, Riverside](http://spatial.ucr.edu/peopleRey.html)
+
+### In collaboration with
+
 - [Dani Arribas-Bel](http://darribas.org/) -  University of Liverpool
-- [Levi John Wolf](http://www.bristol.ac.uk/geography/people/levi-j-wolf/overview.html) - University of Bristol
-- [Marynia Kolak](https://marynia.me/) - University of Chicago
-- [Wei Kang](http://spatial.ucr.edu/peopleKang.html) - Arizona State University
+- [Wei Kang](http://spatial.ucr.edu/peopleKang.html)
+- [Marynia Kolak](https://marynia.me)
+- [Joris Van den Bossche](https://jorisvandenbossche.github.io/) - Ghent University 
 
-
-This repository contains the materials and instructions for the Open-Source Spatial Statistics workshop at [AAG 2018](https://annualmeeting.aag.org/AAGAnnualMeeting/Register_To_Attend/Event_Display.aspx?EventKey=AM2018).
-
+This repository contains the materials and instructions for the Spatial Data Science with PyData workshop at [Geopython 2018](http://2018.geopython.net/#w0).
 
 ## Schedule
 
-* 10:00-12:00
+- 13:30 - 14:25: Representing spatial relationships for Data Science
+- 10 Minute Break
+- 14:35 - 15:30: Using spatial information to build better models
 
 ## Obtaining Workshop Materials
+
+The preferred method for attending the workshop is to get a local installation of the software packages running on your own computer. 
+This makes it simple for you to take what you've learned and apply it in your own work. 
+As a secondary alternative, we suggest you consider the directions provided by [@darribas](https://twitter.com/darribas) about [the Geographic Data Science software stack, made available on docker.](https://github.com/darribas/gds_env).
 
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
@@ -26,7 +34,7 @@ If you are familiar with GitHub, you should clone or fork this GitHub repository
 git clone https://github.com/weikang9009/pysal_AAG2018.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/weikang9009/pysal_AAG2018) and clicking on the green *Clone or download* button in the upper right.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/pysal/geopython) and clicking on the green *Clone or download* button in the upper right.
 
 ![download](figs/download.png)
 
@@ -34,7 +42,12 @@ Extract the downloaded zip file to a working directory.
 
 ## New to Command Line
 
-Are you not sure how to access a working directory or command line? For this workshop, we recommend starting with two minimum points: (1) find your Terminal, and (2) Learn to Changing Your Working Directory. For those who have MacOS operating systems, you can find Terminal in your Utilities. For those using other operating systems, search for multiple options online, depending on your taste. A terminal launched looks like this:
+Are you not sure how to access a working directory or command line? For this workshop, we recommend starting with two points:
+
+1. find your Terminal,
+2. Learn to Change Your Working Directory.
+
+For those who have MacOS operating systems, you can find Terminal in your Utilities. For those using other operating systems, search for multiple options online, depending on your taste. A terminal launched looks like this:
 
 ![terminal](figs/terminal.png)
 
@@ -48,14 +61,18 @@ If you just downloaded the zip file into Downloads, first make sure you have unz
 
 ![downloads](figs/workingdir.png)
 
-
 ## Installation
 
-### PySAL
+We will be using a number of Python packages for geospatial analysis. 
 
-We will be using a number of Python packages for geospatial analysis.
+**Please make sure to do these setup steps before attending the conference!**
 
-An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). In this workshop we will be using **Python 3.6** so please download that version of Anaconda.
+### Setting up the environment
+
+An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). In this workshop we will be using **Python 3.6** so please download that version of Anaconda. 
+
+- [Installing on Windows](https://docs.anaconda.com/anaconda/install/windows)
+- [Installing on Mac](https://docs.anaconda.com/anaconda/install/mac-os)
 
 ![anaconda](figs/anaconda.png)
 
@@ -84,6 +101,8 @@ source activate gds
 activate gds
 ```
 
+
+###
 Next, you will want to test your installation with:
 ```bash
  jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
@@ -101,21 +120,3 @@ Open check_workshop.html in a browser, and scroll all the way down, you should s
 ![htmlout](figs/htmlout.png)
 
 If you do see the above, you are ready for the workshop.
-
-### GeoDa
-
-We will also have a short and sweet overview of GeoDa, an opensource spatial statistics software. 
-
-You can download the most recent release of GeoDa (version 1.12) by visiting [GeoDaCenter.Github.io](https://geodacenter.github.io/download.html). 
-
-![geoda](figs/geoda.png)
-
-Once installed, open GeoDa on your operating system. 
-
-If you have a Macintosh and run into an error that reads "Can't be opened because it is from an unidentified developer," you will need to implement one additional step. Because you downloaded directly from the GeoDa developler website, the operating system is not certain if the software is safe. To override this feature, because you know the software is safe, you must go to Systems Preferences to click on the "Security & Privacy" option. Here, you click on "Open Anyway" to open GeoDa successfully. 
-
-![systempref](figs/systempref.png)
-
-You have successfully installed and opened GeoDa when you can view the following:
-
-![geodasuccess.png](figs/geodasuccess.png)
