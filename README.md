@@ -1,7 +1,5 @@
 # Spatial Data Science with PyData
 
-* Time: Thursday, April 12, 13:30 - 15:30
-
 ### Instructors
 
 - [Levi John Wolf](https://ljwolf.org) - [University of Bristol](http://www.bristol.ac.uk/geography/levi-j-wolf/overview.html)
