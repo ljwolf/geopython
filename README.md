@@ -93,6 +93,7 @@ Once this completes, you can activate the workshop environment with:
 * on Mac, Linux, or Windows for conda 4.4+
 ```bash
 conda activate gds
+```
 * on Mac, Linux for conda <4.4
 ```bash
 source activate gds
