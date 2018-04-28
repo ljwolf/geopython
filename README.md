@@ -90,11 +90,15 @@ This may take 10-15 minutes to complete depending on the speed of your network c
 
 Once this completes, you can activate the workshop environment with:
 
-* on Mac, Linux
+* on Mac, Linux, or Windows for conda 4.4+
+```bash
+conda activate gds
+```
+* on Mac, Linux for conda <4.4
 ```bash
 source activate gds
 ```
-* on Windows:
+* on Windows for conda <4.4
 ```bash
 activate gds
 ```
@@ -103,7 +107,7 @@ activate gds
 ###
 Next, you will want to test your installation with:
 ```bash
- jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
+ jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_py_stack.ipynb
 ```
 
 You should see something like:
