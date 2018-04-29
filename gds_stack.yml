@@ -23,6 +23,7 @@ dependencies:
       - bambi
       - pystan
       - polyline
+      - libpysal
      # - rpy2
   - contextily
   - pymc3
