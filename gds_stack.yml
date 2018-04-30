@@ -5,12 +5,8 @@ channels:
 dependencies:
   - python=3
   - pip
-  - bokeh
   - dask
-  - feather-format
   - geopandas
-  - ipython
-  - ipywidgets
   - jupyter
   - jupyterlab
   - jupyter_client
@@ -20,8 +16,6 @@ dependencies:
   - palettable
   - pillow
   - pip:
-      - bambi
-      - pystan
       - polyline
       - libpysal
      # - rpy2
@@ -36,4 +30,3 @@ dependencies:
   - xlrd
   - xlsxwriter
   - ipykernel
-
