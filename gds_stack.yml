@@ -1,31 +1,27 @@
 # Run `conda-env create -f gds_stack.yml`
 name: gds
 channels:
+  - defaults
   - conda-forge
 dependencies:
   - python=3
   - pip
-  - dask
   - geopandas
   - jupyter
-  - jupyterlab
   - jupyter_client
   - mkl-service
   - networkx
-  - osmnx
   - palettable
   - pillow
   - pip:
-      - polyline
       - libpysal
-      - mapclassify
       - esda
+      - mapclassify
+      - gwr
      # - rpy2
   - contextily
-  - pymc3
   - pysal
   - rasterio
-  - scikit-image
   - scikit-learn
   - seaborn
   - statsmodels
