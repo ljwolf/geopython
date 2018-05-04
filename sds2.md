@@ -100,13 +100,6 @@ df.plot(column='mb4',  legend=True, ax=ax)
 #ax.set_ylim(208000, 215000)
 ```
 
-f, ax = plt.subplots(1, figsize=(9, 9))
-tx.assign(cl=q10.yb).plot(column='cl',
-categorical=True, \
-        k=10, cmap='OrRd', linewidth=0.1, ax=ax, \
-edgecolor='white', legend=True)
-ax.set_axis_off()
-plt.show()
 
 ```python
 f, ax = plt.subplots(1, figsize=(9, 9))
@@ -219,9 +212,6 @@ mi = esda.moran.Moran(y, wq)
 mi.EI
 ```
 
-```python
-price
-```
 
 ```python
 mi.p_sim
