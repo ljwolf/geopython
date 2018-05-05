@@ -14,11 +14,13 @@
 
 This repository contains the materials and instructions for the Spatial Data Science with PyData workshop at [Geopython 2018](http://2018.geopython.net/#w0).
 
-## Schedule
+## Outline of Workshop
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ljwolf/geopython/master)
 
 - 13:30 - 14:25: **Representing spatial relationships for Data Science** Here, we will discuss various methods for representing spatial relationships; differences in representations; how to build/construct these in Python using PySAL and scipy; how to use them for basic statistics & exploratory analysis. 
 - 10 Minute Break
-- 14:35 - 15:30: **Using spatial information to build better models**: Here, we will use these spatial relationships to fit better models or models in situations where we do not assume that sites exist in an isometric plane with no interrelationships. In addition, we will discuss problems in spatial clustering & regionalization, defining the difference between the two, and how you can use PySAL & associated tools to build better regions & clusters. 
+- 14:35 - 15:30: **Using spatial information to build better models**: Here, we will use these spatial relationships to analyze data & fit better models or models in situations where we do not assume that sites exist in an isometric plane with no interrelationships.
 
 ## Obtaining Workshop Materials
 
