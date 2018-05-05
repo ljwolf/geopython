@@ -18,6 +18,8 @@ dependencies:
   - pip:
       - polyline
       - libpysal
+      - mapclassify
+      - esda
      # - rpy2
   - contextily
   - pymc3
