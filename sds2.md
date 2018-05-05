@@ -340,8 +340,8 @@ bp
 ```
 
 ```python
-labels = ['0-low outlier', '1-low hinge',
-          '2-Q2', '3-Q3', '4-high hinge', '5-high outlier']
+labels = ['0-low outlier', '1-low whisker',
+          '2-Q2', '3-Q3', '4-high whisker', '5-high outlier']
 bpl = [ labels[b] for b in bp.yb ]
 
 f, ax = plt.subplots(1, figsize=(9, 9))
