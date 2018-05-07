@@ -31,10 +31,10 @@ As a secondary alternative, we suggest you consider the directions provided by [
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
 ```bash
-git clone https://github.com/weikang9009/pysal_AAG2018.git
+git clone https://github.com/ljwolf/geopython.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/pysal/geopython) and clicking on the green *Clone or download* button in the upper right.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/ljwolf/geopython) and clicking on the green *Clone or download* button in the upper right.
 
 ![download](figs/download.png)
 
@@ -57,9 +57,7 @@ To change working directories, you will type ```cd``` plus the name of the direc
 
 ![downloads](figs/downloads.png)
 
-If you just downloaded the zip file into Downloads, first make sure you have unzipped the folder. Once unzipped, assuming it is still in the Downloads directory, type ```cd pysal_AAG2018``` to access. Then ```ls``` to list the contents. You have successfully navigated to your working directory to the workshop, and are ready for installations!
-
-![downloads](figs/workingdir.png)
+If you just downloaded the zip file into Downloads, first make sure you have unzipped the folder. Once unzipped, assuming it is still in the Downloads directory, type ```cd geopython``` to access. Then ```ls``` to list the contents. You have successfully navigated to your working directory to the workshop, and are ready for installations!
 
 ## Installation
 
@@ -76,11 +74,7 @@ An easy way to install all of these packages is to use a Python distribution suc
 
 ![anaconda](figs/anaconda.png)
 
-Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. If you just learned to navigate to your working directory in the tutorial above, you are ready for the next step. For those who need a refresh: if the materials now live in the directory ```/Users/hu/wei/Dropbox (ASU)/python_repos/pysal_AAG2018```, you need to navigate to that directory from the terminal (using command ```cd```):
-
-![directory](figs/directory.png)
-
-Once we have done that, run:
+Once you have downloaded Anaconda, start a terminal and navigate to the directory of the downloaded/ cloned materials. If you just learned to navigate to your working directory in the tutorial above, you are ready for the next step, which sets up the environment for the workshop, grabbing all the required packages: 
 
 ```bash
 conda-env create -f gds_stack.yml
@@ -88,7 +82,7 @@ conda-env create -f gds_stack.yml
 
 This will build a conda environment that sandboxes the installation of the required packages for this workshop so we don't break anything in your computer's system Python (if it has one).
 
-This may take 10-15 minutes to complete depending on the speed of your network connection.
+This may take up to 10-15 minutes to complete depending on the speed of your network connection.
 
 Once this completes, you can activate the workshop environment with:
 
